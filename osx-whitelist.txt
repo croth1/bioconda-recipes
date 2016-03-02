@@ -48,6 +48,7 @@ bioconductor-summarizedexperiment
 bioconductor-vsn
 bioconductor-xvector
 bioconductor-zlibbioc
+biom-format
 blast
 bleach
 blinker
@@ -56,10 +57,13 @@ bmtagger
 bmtool
 botocore
 bottle
+burrito
+burrito-fillings
 bwa
 bx-python
 chanjo
 chromhmm
+cogent
 cnvkit
 cpat
 cramtools
@@ -71,6 +75,7 @@ deeptools
 dominate
 dxua
 elasticluster
+emperor
 extract_fullseq
 fadapa
 fastq-join
@@ -146,6 +151,7 @@ pybedtools
 pybigwig
 pycli
 pyfaidx
+pynast
 pysam
 pysan1-modules
 python-dateutil
@@ -154,6 +160,7 @@ python-magic
 python-wget
 pythonpy
 pyvcf
+qcli
 qiime
 qiime-default-reference
 qsignature
