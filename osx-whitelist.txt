@@ -154,6 +154,8 @@ python-magic
 python-wget
 pythonpy
 pyvcf
+qiime
+qiime-default-reference
 qsignature
 qualimap
 r-ade4
