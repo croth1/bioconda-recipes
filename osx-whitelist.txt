@@ -152,6 +152,7 @@ pybigwig
 pycli
 pyfaidx
 pynast
+pyqi
 pysam
 pysan1-modules
 python-dateutil
