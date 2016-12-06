@@ -12,6 +12,8 @@ source:
   fn: sra-tools-{{ SRA_TOOLS_VERSION }}.tar.gz
   url: https://github.com/ncbi/sra-tools/archive/{{ SRA_TOOLS_VERSION }}-1.tar.gz
   sha256: {{ SRA_TOOLS_SHA256 }}
+  patches:
+      - patches/libmagic.patch
 
 extra:
   notes: "This package includes ncbi-vdb and ngs-sdk. After installation, you should run the configuration tool: ./vdb-config -i. This tool will setup your download/cache area for downloaded files and references."
@@ -21,8 +23,13 @@ requirements:
     - gcc # [not osx]
     - llvm # [osx]
     - perl
+    - libiconv
+    - libxml2
+    - libmagic
   run:
-    #
+    - libiconv
+    - libxml2
+    - libmagic
 
 about:
   home: https://github.com/ncbi/sra-tools

@@ -1,0 +1,13 @@
+diff --git a/tools/copycat/Makefile b/tools/copycat/Makefile
+index 985c064..4bb99ed 100644
+--- a/tools/copycat/Makefile
++++ b/tools/copycat/Makefile
+@@ -92,7 +92,7 @@ COPYCAT_LIB = \
+ 	-stk-version \
+ 	-sncbi-vdb \
+ 	-skff \
+-	-smagic-static
++	-smagic
+ 
+ 
+ $(BINDIR)/copycat: $(COPYCAT_OBJ)
